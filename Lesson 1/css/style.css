@@ -8,13 +8,61 @@ body {
     font-size: 24px;
     line-height: 1.5;
 
-    background-color: #ffffff;
-    color: #333333;
-    margin: 40px auto 40px auto;
-    width: 620px;
+    background-color: #edc7a9;
+    background-image:linear-gradient(180deg, #ffffff, rgba(255,255,255,0));
+
+
+    color: #000000;
+   
+    height: 100vh;
 }
 
 h1 {
     font-size: 24px;
-    font-weight: 700;
+    margin: 10px 0 10px 0;
+
+}
+
+h2 {
+    /* Will change size depending on both the height and the width */
+    font-size: 10vmin;
+    margin: 10px 0 10px 0;
+}
+
+
+section{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* This is used to center the block/section */
+    transform: translate(-50%, -50%); 
+    width: 60%;
+    text-align: center;
+}
+
+section div.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #3e78ed;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+footer {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* adding the width property stretches the footer across the page */
+    width: 100%;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer img {
+    margin: 0 10px 0 10px;
 }
